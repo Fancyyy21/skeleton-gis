@@ -78,17 +78,17 @@ export function getURLContentJS(){
         case "logout":
             return url.view.content+"logout.js";
         case "crud/get":
-            return url.template.content+"geojson/table.html";
+            return url.template.content+"geojson/table.js";
         case "map/ch1":
-            return url.template.content+"geojson/ch1.html";
+            return url.template.content+"geojson/ch1.js";
         case "map/ch2":
-            return url.template.content+"geojson/ch2.html";
+            return url.template.content+"geojson/ch2.js";
         case "map/ch3":
-            return url.template.content+"geojson/ch3.html";
+            return url.template.content+"geojson/ch3.js";
         case "map/ch4":
-            return url.template.content+"geojson/ch4.html";
+            return url.template.content+"geojson/ch4.js";
         case "map/ch5":
-            return url.template.content+"geojson/ch5.html";
+            return url.template.content+"geojson/ch5.js";
         default:
             return url.view.content+"home.js";
     }
