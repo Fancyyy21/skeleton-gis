@@ -33,7 +33,7 @@ export function getContentURL(){
         case "crud/get":
             return url.template.content+"geojson/table.html";
         case "map/ch1":
-            return url.template.content+"geojson/ch1/";
+            return url.template.content+"geojson/ch1.html";
         case "map/ch2":
             return url.template.content+"geojson/ch2/";
         case "map/ch3":
